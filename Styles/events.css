@@ -1,0 +1,66 @@
+@media (max-width: 600px) {
+    .curevent {
+        display: flex;
+        flex-direction: column !important;
+        width: 100%;
+    }
+
+    .layer {
+        flex-direction: column;
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .curevent img {
+        width: 95% !important;
+        height: 100% !important;
+        margin: auto;
+        margin-bottom: 2vh;
+    }
+
+}
+
+.topnav .navspace>a {
+    border-bottom: 0px solid black;
+}
+
+.topnav .navspace>a:hover,
+.topnav .navbar button:hover {
+    border-bottom: 4px solid black;
+}
+
+.topnav .navspace>a:hover,
+.topnav .dropdown:hover {
+    border-bottom: 4px solid black;
+}
+
+.topnav .dropdown {
+    border-bottom: 0px solid black;
+}
+
+.currentevent {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 10vh;
+}
+
+.currentevent embed {
+    width: 100%;
+    height: 100%;
+}
+
+.curevent {
+    display: flex;
+}
+
+.layer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.curevent img {
+    width: 75%;
+    height: 100%;
+    margin: auto;
+}
