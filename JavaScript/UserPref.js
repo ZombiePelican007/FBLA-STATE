@@ -37,3 +37,7 @@ function Light() {
     Popup();
     document.location.reload(true);
 };
+
+function stopscrollprompt() {
+    document.getElementById("scrollplease").style.display = "none";
+};
