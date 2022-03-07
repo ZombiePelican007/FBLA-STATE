@@ -18,7 +18,7 @@
   <script src="JavaScript/BGShuffle.js"></script>
 </head>
 
-<body onload="Popup();" onscroll="stopscrollprompt();" id="bgchange">
+<body onload="Popup(); bgshuffle();" onscroll="stopscrollprompt();" id="bgchange">
 
   <div class="Popup" id="Popup">
     <h2>Do you prefer dark mode or light mode</h2>
@@ -35,7 +35,7 @@
     <i class="far fa-snowflake" id="six"></i>
   </div>
   <div class="welc">
-    <h2 id="test">Welcome to the Springville Red Devils Student Website</h2>
+    <h2 id="test">Welcome to Video Haven</h2>
     <!--start of navbar-->
     <div class="navbar">
       <div class="links">
@@ -53,7 +53,7 @@
               <a href="events.html">Events</a>
               <a href="instagram.html">Instagram</a>
               <a href="clubs.html">Clubs</a>
-              <a onclick="bgshuffle()">Toggle dark</a>
+              <a onclick="ToggleDark()">Toggle dark</a>
             </div>
           </div>
         </div>

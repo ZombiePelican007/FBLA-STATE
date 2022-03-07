@@ -1,4 +1,9 @@
 function bgshuffle() {
-    Math.floor(Math.random() * (max - min)) + min;
-    document.getElementById("test").innerHTML = "url(landscape" + Math.random() + ")";
+    var randomnum = Math.floor(Math.random() * (4 - 1)) + 1;
+    if (window.innerWidth > "750") {
+        document.getElementById("bgchange").style.background = "url(../Imgs/landscape" + randomnum + ".jpg)";
+
+    } else {
+        document.getElementById("bgchange").style.background = "url(../Imgs/landscape" + randomnum + ".jpg)";
+    }
 }

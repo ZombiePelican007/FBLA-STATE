@@ -44,10 +44,10 @@
 
 @media (min-width: 750px) {
     body {
-        background: url(../Imgs/landscape1.jpg);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
+        background: black;
+        background-size: cover !important;
+        background-position: center !important;
+        background-attachment: fixed !important;
         background-repeat: no-repeat;
     }
 }
