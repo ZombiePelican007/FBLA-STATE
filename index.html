@@ -3,7 +3,7 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
-  <title>Cinematoghraphy Central</title>
+  <title>Cinematography Central</title>
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="Styles/Holiday.css" type="text/css">
   <link rel="stylesheet" href="Styles/dropdown.css" type="text/css">
@@ -18,7 +18,7 @@
   <script src="JavaScript/BGShuffle.js"></script>
 </head>
 
-<body onload="Popup(); bgshuffle();" onscroll="stopscrollprompt();" id="bgchange">
+<body onload="Popup(); bgshuffle(); testimonialswap();" onscroll="stopscrollprompt();" id="bgchange">
 
   <div class="Popup" id="Popup">
     <h2>Do you prefer dark mode or light mode</h2>
@@ -35,24 +35,22 @@
     <i class="far fa-snowflake" id="six"></i>
   </div>
   <div class="welc">
-    <h2 id="test">Welcome to Cinematoghraphy Central</h2>
+    <h2 id="test">Welcome to Cinematography Central</h2>
     <!--start of navbar-->
     <div class="navbar">
       <div class="links">
         <div class="navspace"><a href="index.html">Home</a></div>
-        <div class="navspace"><a href="imagePage.html">Student posts</a></div>
         <div class="navspace"><a href="events.html">Events</a></div>
-        <div class="navspace"><a href="Instagram.html">Instagram</a></div>
-        <div class="navspace"><a href="clubs.html">Clubs</a></div>
+        <div class="navspace"><a href="Instagram.html">Testimonials</a></div>
+        <div class="navspace"><a href="imagePage.html"> Contact Us</a></div>
         <div class="navspace">
           <div class="dropdown">
             <button class="dropbtn">Other <i class="fas fa-chevron-down"></i></button>
             <div class="dropdown-content">
               <a href="index.html">Home</a>
-              <a href="imagePage.html">Student posts</a>
               <a href="events.html">Events</a>
-              <a href="instagram.html">Instagram</a>
-              <a href="clubs.html">Clubs</a>
+              <a href="instagram.html">Testimonials</a>
+              <a href="imagePage.html"> Contact Us</a>
               <a onclick="ToggleDark()">Toggle dark</a>
             </div>
           </div>
@@ -67,7 +65,8 @@
   </div>
   <div class="main" id="ModeSwitch">
     <div class="desc">
-      <h2>Hello and welcome to Cinematoghraphy Central. If you dont havent heard about us we are a film company dedicated to bringing beautiful films to the silver screen.</h2>
+      <h2>Hello and welcome to Cinematography Central. If you dont havent heard about us we are a film company
+        dedicated to bringing beautiful films to the silver screen.</h2>
     </div>
     <div class="theme">
       <h2>Here is our latest Video</h2>
@@ -110,65 +109,55 @@
       </div>
     </div>
     <div class="events">
-      <h2>And here you can see the upcoming events</h2>
-      <div class="curevent">
-        <div class="layer">
-          <img src="Imgs/curevents/curevent.jpg" alt="">
-          <img src="Imgs/curevents/curevent2.jpg" alt="">
-          <img src="Imgs/curevents/curevent3.jpg" alt="">
-        </div>
-        <div class="layer">
-          <img src="Imgs/curevents/curevent4.jpg" alt="">
-          <img src="Imgs/curevents/curevent5.jpg" alt="">
-          <img src="Imgs/curevents/curevent6.jpg" alt="">
-        </div>
+      <h2>And here you can see some of our customers testimonials.</h2>
+      <div class="testimonials">
+        <h4 id="testimonialname">"WOW Just WOW"</h4>
+        <p id="testimonial">Not only did they ask me for creative input every step of the way but I also got to learn
+          about
+          Cinematography from their amazing crew!</p>
       </div>
-      <embed
-        src="https://calendar.google.com/calendar/u/0/embed?title=Springville+High+School&height=600&wkst=1&bgcolor=%23ffffff&src=nebo.edu_6t9q91pcf2jk9he74d02b0u28o@group.calendar.google.com&color=%23865A5A&src=en.usa%23holiday@group.v.calendar.google.com&color=%23333333&src=nebo.edu_s7lmikuagi5isu00a7290e96bs@group.calendar.google.com&color=%23000000&src=nebo.edu_t24944r2cgkkrqp66aof6dph0c@group.calendar.google.com&color=%23711616&src=nebo.edu_3qq5gp7fldd5okop4d6bp5m87g@group.calendar.google.com&color=%23060D5E&ctz=America/Denver">
     </div>
     <!--bottom nav-->
     <div class="bottomnav">
       <div class="navbar">
         <div class="links">
           <div class="navspace"><a href="index.html">Home</a></div>
-          <div class="navspace"><a href="imagePage.html">Student posts</a></div>
           <div class="navspace"><a href="events.html">Events</a></div>
-          <div class="navspace"><a href="Instagram.html">Instagram</a></div>
-          <div class="navspace"><a href="clubs.html">Clubs</a></div>
+          <div class="navspace"><a href="Instagram.html">Testimonials</a></div>
+          <div class="navspace"><a href="imagePage.html"> Contact Us</a></div>
           <div class="navspace">
             <div class="dropdown">
               <button class="dropbtn">Other <i class="fas fa-chevron-down"></i></button>
               <div class="dropdown-content">
                 <a href="index.html">Home</a>
-                <a href="imagePage.html">Student posts</a>
                 <a href="events.html">Events</a>
-                <a href="Instagram.html">Instagram</a>
-                <a href="clubs.html">Clubs</a>
+                <a href="Instagram.html">Testimonials</a>
+                <a href="imagePage.html"> Contact Us</a>
                 <a onclick="ToggleDark()">Toggle dark</a>
               </div>
             </div>
           </div>
         </div>
         <div class="socialmedia">
-          <a href="https://www.instagram.com/reddevils_studco/?hl=en">
+          <a href="">
             <div class="textmargin">
-              <div class="text">studco</div>
+              <div class="text">Our Instagram</div>
             </div> <br><img src="Imgs/Instagram.png" alt="Instagram pic" width="55px">
           </a>
-          <a href="https://www.instagram.com/shs_reddevils/?hl=en">
+          <a href="">
             <div class="textmargin">
-              <div class="text">reddevils</div>
+              <div class="text">Full Videos Instagram</div>
             </div> <br><img src="Imgs/Instagram.png" alt="Instagram pic" width="55px">
           </a>
-          <a href="https://www.facebook.com/SpringvilleHighSchool/">
+          <a href="">
             <div class="textmargin">
-              <div class="text">SHS</div>
+              <div class="text">Behind The Scenes</div>
+            </div> <br><img src="Imgs/Instagram.png" alt="Instagram pic" width="55px">
+          </a>
+          <a href="">
+            <div class="textmargin">
+              <div class="text">Our Facebook</div>
             </div> <br><img src="Imgs/Facebook.png" alt="Facebook pic" width="48px">
-          </a>
-          <a href="https://www.instagram.com/The_Ville_TV/?hl=en">
-            <div class="textmargin">
-              <div class="text">The Ville</div>
-            </div> <br><img src="Imgs/Instagram.png" alt="Instagram pic" width="55px">
           </a>
         </div>
       </div>

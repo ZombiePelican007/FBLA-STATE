@@ -231,3 +231,10 @@ p {
     color: #e20000;
     font-size: 15px;
 }
+
+.testimonials {
+    padding: 10px;
+    margin-top: 5vh;
+    width: 65vw;
+    margin: auto;
+}

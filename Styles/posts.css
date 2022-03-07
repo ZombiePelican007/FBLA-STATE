@@ -78,8 +78,8 @@
     margin-bottom: 5vh;
 }
 
-.imgsubmission img {
-    width: 100%;
+.formselect {
+    display: flex;
 }
 
 .imageposts {
@@ -102,3 +102,4 @@
     text-align: center;
     margin: auto;
 }
+

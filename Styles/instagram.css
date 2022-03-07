@@ -1,3 +1,9 @@
+@media (max-width: 750px) {
+    .testimonials {
+        flex-direction: column;
+    }
+}
+
 body {
     background: url(../Imgs/banner.jpg);
     background-size: contain;
@@ -7,7 +13,7 @@ body {
 
 .welc {
     padding-top: 20px;
-    padding-bottom: 70vh;
+    padding-bottom: 10vh;
     color:  #e20000;
 }
 
@@ -19,6 +25,19 @@ body {
     color: #e20000;
 }
 
-.curator-feed a{
-    color: white !important;
+.testimonials {
+    display: flex;
+    margin-bottom: 50vh;
+    width: 99vw;
+}
+
+.container {
+    width: 50%;
+}
+
+.testimonial {
+    width: 95%;
+    color: white;
+    margin-bottom: 60px;
+    font-size: large;
 }
