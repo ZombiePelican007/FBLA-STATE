@@ -4,6 +4,6 @@ function bgshuffle() {
         document.getElementById("bgchange").style.background = "url(Imgs/landscape" + randomnum + ".jpg)";
 
     } else {
-        document.getElementById("bgchange").style.background = "url(Imgs/landscape" + randomnum + ".jpg)";
+        document.getElementById("bgchange").style.background = "url(Imgs/portrait" + randomnum + ".jpg)";
     }
 }
