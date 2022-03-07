@@ -5,7 +5,7 @@
 
 @media (max-width: 750px) {
     body {
-        background: url(../Imgs/enzo-b-HLFFEcDGwYs-unsplash.jpg);
+        background: url(../Imgs/portrait1.jpg);
         background-size: contain;
         background-position: top;
         background-color: #21204b;
@@ -44,42 +44,12 @@
 
 @media (min-width: 750px) {
     body {
-        background: url(../Imgs/landscape.jpg);
+        background: url(../Imgs/landscape1.jpg);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
         background-repeat: no-repeat;
     }
-
-        @keyframes {
-            0% {
-                background: url(../Imgs/landscape.jpg);
-            }
-
-            10% {
-                background-color: black;
-            }
-
-            20% {
-                background: url(../Imgs/landscape2.jpg);
-            }
-
-            30% {
-                background-color: black;
-            }
-
-            40% {
-                background: url(../Imgs/backgroundmobile.jpg);
-            }
-
-            50% {
-                background-color: black;
-            }
-
-            60% {
-                background: url(../Imgs/backgroundmobile.jpg);
-            }
-        }
 }
 
 body {
