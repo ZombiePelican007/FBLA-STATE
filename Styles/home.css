@@ -5,8 +5,8 @@
 
 @media (max-width: 750px) {
     body {
-        background: url(../Imgs/portrait1.jpg);
-        background-size: contain;
+        background: black;
+        background-size: contain !important;
         background-position: top;
         background-color: #21204b;
         background-repeat: no-repeat;
