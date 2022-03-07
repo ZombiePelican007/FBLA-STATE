@@ -1,6 +1,6 @@
 :root {
-    --bgColor:white;
-    --TextColor:black;
+    --bgColor: white;
+    --TextColor: black;
 }
 
 @media (max-width: 750px) {
@@ -10,6 +10,36 @@
         background-position: top;
         background-color: #21204b;
         background-repeat: no-repeat;
+    }
+
+    @keyframes {
+        0% {
+            background: url(../Imgs/backgroundmobile.jpg);
+        }
+
+        10% {
+            background-color: black;
+        }
+
+        20% {
+            background: url(../Imgs/backgroundmobile.jpg);
+        }
+
+        30% {
+            background-color: black;
+        }
+
+        40% {
+            background: url(../Imgs/backgroundmobile.jpg);
+        }
+
+        50% {
+            background-color: black;
+        }
+
+        60% {
+            background: url(../Imgs/backgroundmobile.jpg);
+        }
     }
 
     .welc {
@@ -84,7 +114,7 @@ p {
     flex-direction: column;
     margin-top: 50vh;
     animation-name: scrollpls;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
     opacity: 0%;
@@ -92,8 +122,20 @@ p {
 }
 
 @keyframes scrollpls {
-    from {margin-top:50vh; opacity: 100%;}
-    to {margin-top: 70vh; opacity: 0%;}
+    0% {
+        margin-top: 40vh;
+        opacity: 0%;
+    }
+
+    50% {
+        margin-top: 35vh;
+        opacity: 100%;
+    }
+
+    100% {
+        margin-top: 90vh;
+        opacity: 0%;
+    }
 }
 
 .recentphotostext {
