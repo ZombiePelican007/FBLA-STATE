@@ -15,12 +15,3 @@ function bgshuffle() {
         document.getElementById("bgchange").style.background = "url(Imgs/portrait" + randomnum + ".jpg)";
     };
 };
-
-async function testimonialswap() {
-    const testname = ['"WOW Just WOW"', "cool"];
-    const test = ["Not only did they ask me for creative input every step of the way but I also got to learn about Cinematoghraphy from their amazing crew!", "test"];
-    for (let i = 0; i < test.length; i++) {
-        document.getElementById("testimonialname").innerHTML = testname[i];
-        document.getElementById("testimonial").innerHTML = test[i];
-    };
-};
