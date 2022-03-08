@@ -5,11 +5,11 @@
 
 @media (max-width: 750px) {
     body {
-        background: black;
+        background-color: black !important;
         background-size: contain !important;
         background-position: top;
         background-color: #21204b;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat !important;
     }
 
     .welc {
@@ -39,6 +39,10 @@
     h6,
     p {
         margin: 20px !important;
+    }
+
+    .scrollplease {
+        display: none !important;
     }
 }
 
