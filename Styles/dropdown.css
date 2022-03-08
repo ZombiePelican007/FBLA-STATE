@@ -172,8 +172,16 @@
   color: #4267B2;
 }
 
-.textmargin {
-  height: 60px;
+@media (max-width:750px) {
+  .textmargin {
+    height: 50px;
+  }
+}
+
+@media (min-width:750px) {
+  .textmargin {
+    height: 10px;
+  }
 }
 
 .text {

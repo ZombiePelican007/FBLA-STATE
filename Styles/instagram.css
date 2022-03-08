@@ -2,6 +2,18 @@
     .testimonials {
         flex-direction: column;
     }
+
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (min-width: 750px) {
+    .container {
+        width: 50%;
+        margin: auto;
+    }
 }
 
 body {
@@ -14,10 +26,10 @@ body {
 .welc {
     padding-top: 20px;
     padding-bottom: 10vh;
-    color:  #e20000;
+    color: #e20000;
 }
 
-.links > .navspace > a {
+.links>.navspace>a {
     color: #e20000;
 }
 
@@ -29,10 +41,7 @@ body {
     display: flex;
     margin-bottom: 10vh;
     width: 99vw;
-}
-
-.container {
-    width: 50%;
+    margin: auto;
 }
 
 .testimonial {
