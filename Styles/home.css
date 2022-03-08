@@ -16,11 +16,16 @@
         height: 65vh !important;
     }
 
+    .desc {
+        padding-top: 3vh;
+    }
+
     .curevent {
         display: flex;
         flex-direction: column !important;
         width: 100%;
     }
+
 
     .layer {
         flex-direction: column;
