@@ -16,10 +16,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/7ce960fd0f.js" crossorigin="anonymous"></script>
   <script src="JavaScript/UserPref.js"></script>
-  <script src="JavaScript/FormSelect.js"></script>
+  <script src="JavaScript/BGShuffle.js"></script>
 </head>
 
-<body onload="Popup()" id="ModeSwitch">
+<body onload="Popup();" id="ModeSwitch">
 
   <div class="Popup" id="Popup">
     <h2>Do you prefer dark mode or light mode</h2>
@@ -36,16 +36,16 @@
     <i class="far fa-snowflake" id="six"></i>
   </div>
   <div class="bgwrapper">
-    <div class="bg"></div>
+    <div class="bg" id="bgchange"></div>
   </div>
   <div class="welc">
     <h2>Contact Us</h2>
     <!--start of navbar-->
     <div class="topnav">
       <div class="navbar">
-        <div class="links">
+        <div class="links" id="DarkNav">
           <div class="navspace"><a href="index.html">Home</a></div>
-          <div class="navspace"><a href="events.html">Events</a></div>
+          <div class="navspace"><a href="events.html">Creator Spotlight</a></div>
           <div class="navspace"><a href="Instagram.html">Testimonials</a></div>
           <div class="navspace"><a href="imagePage.html">Contact Us</a></div>
           <div class="navspace">
@@ -53,7 +53,7 @@
               <button class="dropbtn">Other <i class="fas fa-chevron-down"></i></button>
               <div class="dropdown-content">
                 <a href="index.html">Home</a>
-                <a href="events.html">Events</a>
+                <a href="events.html">Creator Spotlight</a>
                 <a href="instagram.html">Testimonials</a>
                 <a href="imagePage.html">Contact Us</a>
                 <a onclick="ToggleDark()">Toggle dark</a>
@@ -74,7 +74,7 @@
     <div class="navbar">
       <div class="links">
         <div class="navspace"><a href="index.html">Home</a></div>
-        <div class="navspace"><a href="events.html">Events</a></div>
+        <div class="navspace"><a href="events.html">Creator Spotlight</a></div>
         <div class="navspace"><a href="Instagram.html">Testimonials</a></div>
         <div class="navspace"><a href="imagePage.html">Contact Us</a></div>
         <div class="navspace">
@@ -82,7 +82,7 @@
             <button class="dropbtn">Other <i class="fas fa-chevron-down"></i></button>
             <div class="dropdown-content">
               <a href="index.html">Home</a>
-              <a href="events.html">Events</a>
+              <a href="events.html">Creator Spotlight</a>
               <a href="Instagram.html">Testimonials</a>
               <a href="imagePage.html">Contact Us</a>
               <a onclick="ToggleDark()">Toggle dark</a>
@@ -113,11 +113,12 @@
         </a>
       </div>
     </div>
+    <p style="color: white;"><i class="far fa-copyright"> Cinematography Central</i> <br>This page is for FBLA
+      Conference use only</p>
     <div class="spacer280"></div>
     <div id="ModeSwitch2" style="display: none;"></div>
     <div id="ModeSwitch3" style="display: none;"></div>
     <div id="ModeSwitch4" style="display: none;"></div>
-    <div id="DarkNav" style="display: none;"></div>
     <div id="skewed-theme" style="display: none;"></div>
   </div>
   <!--end of bottom nav-->
