@@ -1,25 +1,3 @@
-@media (max-width: 750px) {
-    .curevent {
-        display: flex;
-        flex-direction: column !important;
-        width: 100%;
-    }
-
-    .layer {
-        flex-direction: column;
-        width: 100% !important;
-        margin: auto;
-    }
-
-    .curevent img {
-        width: 95% !important;
-        height: 100% !important;
-        margin: auto;
-        margin-bottom: 2vh;
-    }
-
-}
-
 .topnav .navspace>a {
     border-bottom: 0px solid black;
 }
@@ -38,29 +16,94 @@
     border-bottom: 0px solid black;
 }
 
-.currentevent {
-    width: 100%;
+@media (max-width: 750px) {
+    .imageposts {
+        flex-direction: column;
+    }
+
+    .imageposts * {
+        margin: auto;
+    }
+
+    .imageposts>.images {
+        order: 2;
+    }
+
+    .imageposts>.sidebysidetext>h3 {
+        margin-top: 30px;
+    }
+
+    .imageposts>.sidebysidetext>p {
+        margin-bottom: 10px;
+    }
+
+    .imageposts .sidebysidetext {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 1800px) {
+    .welc {
+        margin-bottom: 90vh !important;
+    }
+}
+
+.bgwrapper {
+    position: absolute;
+    height: 50vw;
+    overflow: hidden;
+    transform: skewY(-8deg);
+    transform-origin: top left;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.bg {
+    background-image: url(../Imgs/background.jpg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: skewY(8deg);
+    transform-origin: top left;
+}
+
+.imgsubmission {
+    width: 90vw;
     height: fit-content;
-    margin-bottom: 10vh;
+    margin: auto;
+    margin-bottom: 5vh;
 }
 
-.currentevent embed {
+.imgsubmission img {
+    width: 100%;
+}
+
+.imageposts {
+    display: flex;
+}
+
+.images {
+    width: 50%;
+    background-color: white;
+}
+
+.imageposts img {
     width: 100%;
     height: 100%;
 }
 
-.curevent {
-    display: flex;
-}
-
-.layer {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-
-.curevent img {
-    width: 75%;
-    height: 100%;
+.imageposts .sidebysidetext {
+    width: 40%;
+    justify-content: center;
+    text-align: center;
     margin: auto;
 }
