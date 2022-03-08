@@ -16,13 +16,6 @@
     }
 }
 
-body {
-    background: url(../Imgs/banner.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #21204b;
-}
-
 .welc {
     padding-top: 20px;
     padding-bottom: 10vh;
@@ -46,7 +39,6 @@ body {
 
 .testimonial {
     width: 95%;
-    color: white;
     margin-bottom: 60px;
     font-size: large;
 }
