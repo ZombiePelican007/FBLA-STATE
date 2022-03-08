@@ -82,8 +82,8 @@ body {
     color: #e20000;
 }
 
-.welc h2,
-h6,
+.welc h2, .welc
+h6, .welc
 p {
     margin: 40px;
 }
@@ -171,11 +171,6 @@ p {
     color: red;
 }
 
-.events embed {
-    width: 100%;
-    height: 40vh;
-}
-
 .theme {
     width: 100%;
     height: 70vh;
@@ -241,9 +236,15 @@ p {
     font-size: 15px;
 }
 
+.events {
+    min-height: 40vh;
+    display: none;
+}
+
 .testimonials {
     padding: 10px;
     margin-top: 5vh;
     width: 65vw;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
